@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import getCenter from "geolib/es/getCenter";
-import "mapbox-gl/dist/mapbox-gl.css";
+//import "mapbox-gl/dist/mapbox-gl.css";
 import PopupCard from './PopupCard';
 
 function Map({ searchResults }) {
