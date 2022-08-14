@@ -8,8 +8,25 @@ import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
 import Footer from "../components/Footer";
+import { GetStaticProps } from 'next';
 
-const Home: NextPage = ({ exploreData, cardsData }) => {
+interface ExploreData {
+  img: string;
+  location: string;
+  distance: string;
+}
+
+interface CardsData {
+  img: string;
+  title: string;
+}
+
+interface Props {
+  exploreData: ExploreData[];
+  cardsData: CardsData[];
+}
+
+const Home: NextPage<Props> = ({ exploreData, cardsData }) => {
   return (
     <div className="">
       <Head>
@@ -71,12 +88,12 @@ const Home: NextPage = ({ exploreData, cardsData }) => {
 
 export default Home
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async (context) => {
   const exploreData = await fetch('https://links.papareact.com/pyp').
-  then((res) => res.json());
+  then((res) => res.json()) as ExploreData;
 
   const cardsData = await fetch('https://links.papareact.com/zp1').
-  then((res) => res.json());
+  then((res) => res.json()) as CardsData;
 
   return {
     props: {
