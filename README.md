@@ -1,6 +1,6 @@
 # About
 The application is still being developed. This is only the frontend and all the data is taken from an API, the backend is still in construction :)
-Link to app: https://airbnb-clone-nexoa293y-4emar.vercel.app/
+Link to app: https://airbnb-clone-ae1w9s8lq-4emar.vercel.app/
 
 
 # Next.js + Tailwind CSS Example
