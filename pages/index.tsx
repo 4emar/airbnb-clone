@@ -35,7 +35,7 @@ const Home: NextPage<Props> = ({ exploreData, cardsData }) => {
       </Head>
       
       {/* Header */}
-        <Header/>
+        <Header placeholder=''/>
 
       {/* Banner */}
         <Banner />
