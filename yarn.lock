@@ -105,7 +105,7 @@
   "resolved" "https://registry.npmjs.org/@types/geojson/-/geojson-7946.0.10.tgz"
   "version" "7946.0.10"
 
-"@types/mapbox-gl@^2.6.0":
+"@types/mapbox-gl@^2.6.0", "@types/mapbox-gl@^2.7.5":
   "integrity" "sha512-T8gACm3oGKMlBo2l/9vnKEAxgCc0g2mr8g6dI1d3ZO6EzRe7JALBONlWRmc7SOHV79kiarkcdLdDVEnfd+jilA=="
   "resolved" "https://registry.npmjs.org/@types/mapbox-gl/-/mapbox-gl-2.7.5.tgz"
   "version" "2.7.5"

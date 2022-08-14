@@ -8,6 +8,7 @@
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.1",
     "@heroicons/react": "^1.0.6",
+    "@types/mapbox-gl": "^2.7.5",
     "date-fns": "^2.29.1",
     "geolib": "^3.3.3",
     "next": "latest",
