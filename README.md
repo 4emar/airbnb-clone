@@ -1,7 +1,22 @@
 # About
-The application is still being developed. This is only the frontend and all the data is taken from an API, the backend is still in construction :)
+The application is still being developed. This is only the frontend and all the data is taken from an API and the map is implemented from [MapBox](https://www.mapbox.com/), the backend is still in construction :)
 Link to app: https://airbnb-clone-ae1w9s8lq-4emar.vercel.app/
 
+The screenshots below are from the application.
+
+## Home Screen
+
+![airbnb 1](https://user-images.githubusercontent.com/81175325/186025779-01b69352-af5e-457e-b8b4-bbf5b3c669d2.JPG)
+![airbnb 2](https://user-images.githubusercontent.com/81175325/186025802-9d6eafd1-24e7-46dd-9a2d-2f7d6526ad74.JPG)
+![airbnb 3](https://user-images.githubusercontent.com/81175325/186025811-728b42b3-ef0d-4af2-a435-af5c80c1afde.JPG)
+
+## Search Screen
+
+![airbnb 4](https://user-images.githubusercontent.com/81175325/186025822-74c51237-db6b-4c0c-91e3-6f7bd26d2267.JPG)
+
+## Listing Screen
+
+![aribnb 5](https://user-images.githubusercontent.com/81175325/186025837-b74b4cbe-81f8-4427-a6a7-9c62bd41bf42.JPG)
 
 # Next.js + Tailwind CSS Example
 
